@@ -1,0 +1,7 @@
+<launch> 
+	<node name="TFTtoPathConverter_Spheres" pkg="TFToPathConverter" type="TFTtoPathConverter_Spheres" output="screen"/>
+	<node name="TFTtoPathConverter_LineStrips" pkg="TFToPathConverter" type="TFTtoPathConverter_LineStrips" output="screen"/>
+        <node name="TimedPosePublisher" pkg="TFToPathConverter" type="TimedPosePublisher" output="screen">
+		<param name="startTime" value="1323773169" />
+	</node>
+</launch>

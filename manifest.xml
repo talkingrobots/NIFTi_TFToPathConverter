@@ -1,0 +1,19 @@
+<package>
+  <description brief="TFToPathConverter">
+
+     TFToPathConverter
+
+  </description>
+  <author>Shanker Keshavdas, Benoit Larochelle</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url></url>
+  <depend package="tf"/>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="visualization_msgs"/>
+  <depend package="eclipse_prolog_msgs"/>
+</package>
+
+

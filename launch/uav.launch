@@ -1,0 +1,5 @@
+<launch>
+	<node name="TFToPathConverter" pkg="TFToPathConverter" type="TFToPathConverter" output="screen">
+		<param name="robotFrameOfReference" value="uav_base_link" />
+	</node>
+</launch>

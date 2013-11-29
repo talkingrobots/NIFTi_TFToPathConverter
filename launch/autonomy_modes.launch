@@ -1,0 +1,4 @@
+<launch> 
+	<node name="TFTtoPathConverter_Spheres" pkg="TFToPathConverter" type="TFTtoPathConverter_Spheres" output="screen"/>
+	<node name="TFTtoPathConverter_LineStrips" pkg="TFToPathConverter" type="TFTtoPathConverter_LineStrips" output="screen"/>
+</launch>
